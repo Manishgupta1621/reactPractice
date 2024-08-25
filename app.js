@@ -1,21 +1,11 @@
-
-
-// <div id="parent">
-// <div id="child">
-// <h1>I am manish</h1>
-// <h1>I am manish</h1>
-// </div>
-// </div>
-// 
-// ReactElement(Object) => HTML(Boswers Understants)
-// 
-
+import React from "react";
+import ReactDOM from "react-dom";
 
 const parent = React.createElement(
-    "h1", 
+    "div", 
     {id:"parent"}, 
    [ React.createElement("div", {id:"child"},
-    [React.createElement("h1", {}, "hellow Manish"),
+    [React.createElement("h1", {}, "hellow Manish @"),
         React.createElement("h3", {}, "hellow Manish")]
 ),
 React.createElement("div", {id:"child2"},

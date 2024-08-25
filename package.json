@@ -1,0 +1,29 @@
+{
+  "name": "react_nams",
+  "version": "1.0.0",
+  "description": "ReactNew",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manishgupta1621/reactPractice.git"
+  },
+  "author": "Manish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manishgupta1621/reactPractice/issues"
+  },
+  "homepage": "https://github.com/Manishgupta1621/reactPractice#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
